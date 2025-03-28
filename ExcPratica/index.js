@@ -15,6 +15,13 @@ console.log(naosei());
 // let nome = prompt("Digite seu nome: ");
 // alert(`Olá, ${nome}!`);
 
+//rodando o comando prompt para pedir dois números e mostrar o resultado da soma:
+// let primeiroNumero = parseInt(prompt("Digite o primeiro número: "));
+// let segundoNumero = parseInt(prompt("Digite o segundo número: "));
+// let resultado = primeiroNumero + segundoNumero;
+// console.log(primeiro + " + " + segundo + " = " + resultado);
+
+
 //para rodar no node.js, usamos o readline:
 
 //função que habilita o readline, que já é uma função nativa do node.js:
@@ -49,3 +56,4 @@ rl.question("digite o primeiro número: ", (a) => {
         rl.close();
     });
 });
+
